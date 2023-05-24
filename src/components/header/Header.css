@@ -1,0 +1,71 @@
+.heading{
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  line-height: 1.0;
+  margin: 0px 12px;
+}
+.fame{
+  margin: 0px 0px 0px 26px;
+  color: red;
+}
+.op2{
+	color: #c0c0c0 !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heading{
+    font-size: 1.12em;
+    margin: 0px 12px;
+  }
+  .fame{
+    margin: 0px 0px 0px 26px;
+    font-size: 1.0em
+  }
+}
+@media (min-width: 800px) and (max-width: 991px) {
+  
+  .heading{
+    font-size: 1.08em;
+    margin: 0px 12px;
+  }
+  .fame{
+    margin: 0px 0px 0px 20px;
+    font-size: 0.9em
+  }
+  .auth-buttons{
+  	font-size: 14px !important;
+  }
+  .options{
+  	font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 799px) {
+	.heading{
+	    font-size: 1.0em;
+	    margin: 0px 0px 0px 10px;
+	}
+	.fame{
+	    margin: 0px 0px 0px 18px;
+	    font-size: 0.85em
+	}
+	 .auth-buttons{
+	  font-size: 13.2px !important;
+	 }
+	 .options{
+	  font-size: 13.2px !important;
+	 }
+}
+@media (min-width: 321px) and (max-width: 420px) {
+	.heading{
+	    margin: 0px 0px 0px 9px;
+	}
+	.fame{
+	    margin: 0px 0px 0px 13px;
+	}
+	 .auth-buttons{
+	  font-size: 13.2px !important;
+	 }
+	 .options{
+	  font-size: 13.2px !important;
+	 }
+}

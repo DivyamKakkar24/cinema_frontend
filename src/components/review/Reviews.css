@@ -1,0 +1,22 @@
+.review-item{
+	color: #7CFC00;
+}
+
+@media only screen and (max-width: 800px) {
+	.review-poster{
+	    height: 300px;
+	    overflow: hidden;
+
+	}
+	img {
+		height: 100%;
+	    width: 100%;
+	}
+	.submit-button{
+		font-size: 14px !important;
+	}
+	.review-item{
+		font-size: 13.5px !important;
+		line-height: 0.7;
+	}
+}
