@@ -3,11 +3,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-	.review-poster{
-	    height: 300px;
-	    overflow: hidden;
-
-	}
 	img {
 		height: 100%;
 	    width: 100%;
@@ -19,4 +14,14 @@
 		font-size: 13.5px !important;
 		line-height: 1.12;
 	}
+}
+@media (min-width: 321px) and (max-width: 420px) {
+	.review-poster{
+	    height: 300px;
+	    overflow: hidden;
+
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    
 }
